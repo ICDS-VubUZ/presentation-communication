@@ -4,7 +4,7 @@ title:  |
   | to communicate in research proposals
   |
 
-author: "w.cools (ICDS)"
+author: "w\\. cools"
 date: \today
 output:
  pdf_document:
@@ -13,30 +13,47 @@ output:
    in_header: hdr_icds_umc.tex
 ---
 
+<script>
+   $(document).ready(function() {
+     $head = $('#header');
+     $head.prepend('<img src=\"icds.png\" style=\"float: right;width: 300px;\"/>')
+   });
+</script>
+
 <style type="text/css">
 
 body{ /* Normal  */
-      font-size: 12px;
-  }
+	font-size: 12px;
+	font-family: "Roboto", garamond;
+	color: #000000
+}
 td {  /* Table  */
   font-size: 8px;
 }
 h1.title {
   font-size: 38px;
-  color: DarkRed;
+  font-family: "Avantgarde", garamond;
+  color: #000000;
 }
 h1 { /* Header 1 */
   font-size: 28px;
-  color: DarkBlue;
+  font-family: "Avantgarde", garamond;
+  color: #003399;
 }
 h2 { /* Header 2 */
-    font-size: 22px;
-  color: DarkBlue;
+  font-size: 22px;
+  font-family: "Avantgarde", garamond;
+  color: #003399;
 }
 h3 { /* Header 3 */
   font-size: 18px;
-  font-family: "Times New Roman", Times, serif;
-  color: DarkBlue;
+  font-family: "Avantgarde", garamond;
+  color: #003399;
+}
+h4 { /* Header 4 */
+  font-size: 12px;
+  font-family: "Avantgarde", garamond;
+  color: #003399;
 }
 code.r{ /* Code block */
     font-size: 12px;
@@ -91,7 +108,7 @@ Our target audience is primarily the research community at VUB / UZ Brussel, tho
 Note that we present our view, suitable for communicating research at VUB / UZ Brussel, not necessarily outside. Therefore, what we present should only be used for guidance, not as an argument or proof of any kind.  
 <br/>  
 We invite you to help us improve this document by sending us feedback 
-<br/>  wilfried.cools@vub.be or anonymously at www.icds.be/consulting (right side, bottom)
+<br/>  wilfried.cools@vub.be or anonymously at <A HREF="https://www.icds.be/consulting">icds.be/consulting</A> (right side, bottom)
 <br/>
 <br/>
 <br/>
